@@ -9,7 +9,7 @@ const Contact = () => {
     }, []);
 
     return (
-        <section className="bg-gray-50 py-12 px-4 md:px-8 flex flex-col items-center">
+        <section id="contact" className="bg-gray-50 py-12 px-4 md:px-8 flex flex-col items-center">
             <div className="text-center mb-8 mt-40" data-aos="fade-up">
                 <h2 className="text-4xl font-bold text-gray-900">Contact Me</h2>
                 <p className="text-gray-600">Get in Touch</p>

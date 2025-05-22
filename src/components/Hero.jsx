@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { FaChevronRight } from 'react-icons/fa';
+import { Link } from 'react-scroll'; // Import Link
 import Image1 from '../assets/header-img.svg';
 
 const Hero = () => {
@@ -30,12 +30,14 @@ const Hero = () => {
                             data-aos="fade-up" data-aos-delay="300">
                             Download CV
                         </a>
-                        <a
-                            href="#contact"
+                        <Link
+                            to="contact" // Target the Contact section by ID
+                            smooth={true}
+                            duration={500}
                             className="bg-gray-800 text-white px-6 py-3 rounded-full hover:bg-gray-700 flex items-center transition-colors"
                             data-aos="fade-up" data-aos-delay="400">
                             Contact Info
-                        </a>
+                        </Link>
                     </div>
                 </div>
 
