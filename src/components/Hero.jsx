@@ -10,7 +10,7 @@ const Hero = () => {
     }, []);
 
     return (
-        <section className="bg-gradient-to-r from-purple-900 to-black text-white py-20 px-6 md:px-12">
+        <section id="hero" className="bg-gradient-to-r from-purple-900 to-black text-white py-20 px-6 md:px-12">
             <div className='flex flex-col md:flex-row items-center justify-between gap-8 container mx-auto'>
 
                 {/* Left Side: Text Content */}

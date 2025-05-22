@@ -9,7 +9,7 @@ const Skills = () => {
     }, []);
 
     return (
-        <section className="bg-gray-50 py-12 px-4 md:px-8 flex flex-col items-center justify-center">
+        <section id="skills" className="bg-gray-50 py-12 px-4 md:px-8 flex flex-col items-center justify-center">
             {/* Title */}
             <div className="text-center mb-8" data-aos="fade-up">
                 <a href="#explore" className="text-gray-500 text-sm hover:underline">

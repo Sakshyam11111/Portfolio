@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Link } from 'react-scroll';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa';
@@ -14,10 +15,10 @@ const Navbar = () => {
                 <p className="text-xl font-bold text-white">PORTFOLIO</p>
             </div>
             <div className="flex items-center space-x-10 text-xl flex-shrink-0">
-                <button className="text-white hover:text-blue-300 whitespace-nowrap" data-aos="fade-down" data-aos-delay="100">Home</button>
-                <button className="text-white hover:text-blue-300 whitespace-nowrap" data-aos="fade-down" data-aos-delay="200">About</button>
-                <button className="text-white hover:text-blue-300 whitespace-nowrap" data-aos="fade-down" data-aos-delay="300">Skills</button>
-                <button className="text-white hover:text-blue-300 whitespace-nowrap" data-aos="fade-down" data-aos-delay="400">Projects</button>
+                <Link to="hero" smooth={true} duration={500} className="text-white hover:text-blue-300 whitespace-nowrap" data-aos="fade-down" data-aos-delay="100">Home</Link>
+                <Link to="about" smooth={true} duration={500} className="text-white hover:text-blue-300 whitespace-nowrap" data-aos="fade-down" data-aos-delay="200">About</Link>
+                <Link to="skills" smooth={true} duration={500} className="text-white hover:text-blue-300 whitespace-nowrap" data-aos="fade-down" data-aos-delay="300">Skills</Link>
+                <Link to="projects" smooth={true} duration={500} className="text-white hover:text-blue-300 whitespace-nowrap" data-aos="fade-down" data-aos-delay="400">Projects</Link>
                 <div className="flex items-center space-x-4">
                     <a href="https://www.linkedin.com/in/sakshyam-shrestha-8670112a3/" target="_blank" rel="noopener noreferrer">
                         <FaLinkedin className="w-6 h-6 text-white hover:text-blue-300 rounded-full bg-gray-800 p-1" data-aos="fade-down" data-aos-delay="500" />

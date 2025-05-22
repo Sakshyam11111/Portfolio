@@ -40,7 +40,7 @@ const Projects = () => {
     ];
 
     return (
-        <section className="bg-black text-white mx-auto py-12 px-4">
+        <section id="projects" className="bg-black text-white mx-auto py-12 px-4">
             <div className="text-center mb-8">
                 <h2 className="text-4xl font-bold" data-aos="fade-up">Browse My Recent Projects</h2>
             </div>
