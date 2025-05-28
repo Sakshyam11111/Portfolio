@@ -29,9 +29,9 @@ const Navbar = () => {
                     <a href="https://github.com/Sakshyam11111" target="_blank" rel="noopener noreferrer">
                         <FaGithub className="w-6 h-6 text-white hover:text-blue-300 rounded-full bg-gray-800 p-1" data-aos="fade-down" data-aos-delay="700" />
                     </a>
-                    <button className="bg-black text-white px-4 py-2 rounded hover:bg-gray-800 whitespace-nowrap" data-aos="fade-down" data-aos-delay="800">
+                    <Link to="contact" smooth={true} duration={500}  className="bg-black text-white px-4 py-2 rounded hover:bg-gray-800 whitespace-nowrap" data-aos="fade-down" data-aos-delay="800">
                         Let's Connect
-                    </button>
+                    </Link>
                 </div>
             </div>
         </nav>

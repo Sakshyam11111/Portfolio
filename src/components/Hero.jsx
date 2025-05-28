@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { Link } from 'react-scroll'; // Import Link
+import { Link } from 'react-scroll'; 
 import Image1 from '../assets/header-img.svg';
 
 const Hero = () => {
